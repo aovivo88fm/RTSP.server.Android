@@ -211,7 +211,7 @@ public class SettingsActivity extends PreferenceActivity {
 		Editor ed = settings.edit();
 
 		ed.clear();
-		String surlr = settings.getString("urlrtmp", "rtmp://54.173.34.172:1937/publish_demo/");
+		String surlr = settings.getString("urlrtmp", "rtmp://54.173.34.172:1937/cobertura88fm/");
 		//surlr += androidID;
 		ed.putString("urlrtmp", surlr);
 		ed.putString("urlch", "0");
